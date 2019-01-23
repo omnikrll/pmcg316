@@ -1,5 +1,5 @@
 # PMCG-316 Coding 1: Intro to Web Development
-Wednesdays, 7pm-10pm
+Wednesdays, 7pm-10pm  
 Instructor: [Karl Hohn](http://omnikrll.github.io) @omnikrll
 
 ## Week 1
