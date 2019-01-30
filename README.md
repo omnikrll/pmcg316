@@ -13,18 +13,18 @@ Instructor: [Karl Hohn](http://omnikrll.github.io) @omnikrll
 * Getting into CSS: Element, Class, & ID Selectors, and Basic Changes to Color & Font
 
 ## Week 3
+* The Box Model
+* CSS Pseudo Selectors
+* Basic CSS Positioning
+* Intro to Responsive Design
+
+## Week 4
 * More about CSS Typography
 * How to use Google Fonts
 * How to use your own font files
 
-## Week 4
-* The Box Model
-* Basic CSS Positioning
-* Intro to Responsive Design
-
 ## Week 5
-* CSS Pseudo Selectors
-* CSS3 Animations
+* CSS3: Transforms & Animations
 
 ## Week 6
 * Advanced CSS Positioning
