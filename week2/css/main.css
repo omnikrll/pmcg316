@@ -1,0 +1,26 @@
+body {
+  background-color: #936E20;
+  font-family: Papyrus, fantasy;
+  color: black;
+}
+
+header a {
+  color: #59B0C4;
+}
+
+.container {
+    border: 1px solid black;
+    margin: 5px;
+    padding: 5px;
+}
+
+#logo {
+    display: block;
+    background-image: url(../img/pokemon-logo.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 554.5px;
+    height: 274px;
+    text-indent: -100%;
+    overflow: hidden;
+}

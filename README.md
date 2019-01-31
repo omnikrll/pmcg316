@@ -9,7 +9,6 @@ Instructor: [Karl Hohn](http://omnikrll.github.io) @omnikrll
 
 ## Week 2
 * Getting into HTML: What Makes Good Markup?
-* Semantic Structure
 * Getting into CSS: Element, Class, & ID Selectors, and Basic Changes to Color & Font
 
 ## Week 3
