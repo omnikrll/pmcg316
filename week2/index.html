@@ -17,9 +17,27 @@
 
 		<nav>
 			<ul>
-				<li><a href="#people">Another Page</a></li>
-				<li><a href="#sandwiches">Another Page</a></li>
-				<li><a href="#">Another Page</a></li>
+				<li>
+					<a href="#people">Another Page</a>
+					<ul class="dropdown">
+						<li>more</li>
+						<li>content</li>
+					</ul>
+				</li>
+				<li>
+					<a href="#sandwiches">Another Page</a>
+					<ul class="dropdown">
+						<li>more</li>
+						<li>content</li>
+					</ul>
+				</li>
+				<li>
+					<a href="#">Another Page</a>
+					<ul class="dropdown">
+						<li>more</li>
+						<li>content</li>
+					</ul>
+				</li>
 			</ul>
 		</nav>
 	</header>
@@ -29,12 +47,31 @@
 		<article>
 			<h1>My Favorite Pok&eacute;mon</h1>
 
-			<img src="https://static.gamespot.com/uploads/scale_super/1575/15759911/3357773-squirtles.jpg" alt="Squirtle Squad" height="361" width="640" />
+			<img class="float-left" src="https://static.gamespot.com/uploads/scale_super/1575/15759911/3357773-squirtles.jpg" alt="Squirtle Squad" width="300" />
 
 			<p>Squirtle is my favorite Pok&eacute;mon. Some people say Pikachu&#8217;s powers are more useful but I still like Squirtle best.</p>
 
 			<h2>Secondary Title</h2>
 			<p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
+			<p>
+			Sensors indicate no shuttle or other ships in this sector. According to coordinates, we have travelled 7,000 light years and are located near the system J-25. Tractor beam released, sir. Force field maintaining our hull integrity. Damage report? Sections 27, 28 and 29 on decks four, five and six destroyed. Without our shields, at this range it is probable a photon detonation could destroy the Enterprise.
+			</p>
+
+			<div class="clearfix"></div>
+			<img class="float-right" src="https://static.gamespot.com/uploads/scale_super/1575/15759911/3357773-squirtles.jpg" alt="Squirtle Squad" width="300" />
+
+			<p>
+			Exceeding reaction chamber thermal limit. We have begun power-supply calibration. Force fields have been established on all turbo lifts and crawlways. Computer, run a level-two diagnostic on warp-drive systems. Antimatter containment positive. Warp drive within normal parameters. I read an ion trail characteristic of a freighter escape pod. The bomb had a molecular-decay detonator. Detecting some unusual fluctuations in subspace frequencies.
+			</p>
+
+			<p>
+			Sensors indicate human life forms 30 meters below the planet's surface. Stellar flares are increasing in magnitude and frequency. Set course for Rhomboid Dronegar 006, warp seven. There's no evidence of an advanced communication network. Total guidance system failure, with less than 24 hours' reserve power. Shield effectiveness has been reduced 12 percent. We have covered the area in a spherical pattern which a ship without warp drive could cross in the given time.
+			</p>
+
+			<p>
+			Resistance is futile.
+			</p>
+			<div class="clearfix"></div>
 		</article>
 
 		<article>
@@ -60,22 +97,24 @@
 	<footer class="container">
 		<h4 id="people">People I Enjoy</h4>
 		<ul class="col">
+			<li class="li-header">People:</li>
 			<li><a href="http://fastfoodreviewed.com">Jesse Lynch</a></li>
 			<li><a href="http://jeffcampana.com">Jeff Campana</a></li>
 			<li><a href="http://perishablepress.com">Jeff Starr</a></li>
 		</ul>
 		<ul class="col">
+			<li class="li-header">People:</li>
 			<li><a href="http://davidwalsh.name">David Walsh</a></li>
 			<li><a href="http://thestrategicretreat.com">Jeff Penman</a></li>
 			<li><a href="http://http://shiftedfrequency.com">Richard Felix Jr.</a></li>
 		</ul>
 
 		<h4 id="sandwiches">Sandwiches</h4>
-		<ol class="col container" id="sandwich-list">
+		<ul class="col" id="sandwich-list">
 			<li><a href="http://jimmyjohns.com">Jimmy Johns</a></li>
 			<li><a href="http://subway.com">Subway</a></li>
 			<li><a href="http://potbelly.com">Potbelly</a></li>
-		</ol>
+		</ul>
 
 		adapted from <a href="https://css-tricks.com/what-beautiful-html-code-looks-like/" target="_blank">What Beautiful HTML Code Looks Like</a> &copy;2007-2019 Chris Coyier
 	</footer>
