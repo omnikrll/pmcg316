@@ -15,12 +15,12 @@ Instructor: [Karl Hohn](http://omnikrll.github.io) @omnikrll
 * The Box Model
 * CSS Pseudo Selectors
 * Basic CSS Positioning
-* Intro to Responsive Design
 
 ## Week 4
 * More about CSS Typography
 * How to use Google Fonts
 * How to use your own font files
+* Intro to Responsive Design
 
 ## Week 5
 * CSS3: Transforms & Animations
