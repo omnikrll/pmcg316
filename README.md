@@ -17,18 +17,15 @@ Instructor: [Karl Hohn](http://omnikrll.github.io) @omnikrll
 * Basic CSS Positioning
 
 ## Week 4
-* More about CSS Typography
 * How to use Google Fonts
-* How to use your own font files
 * Intro to Responsive Design
 
 ## Week 5
 * CSS3: Transforms & Animations
+* The CSS Zen Garden
 
 ## Week 6
-* Advanced CSS Positioning
-* Flexbox & Floats
-* The CSS Zen Garden
+* Lab Day
 
 ## Week 7
 * Introduction to JavaScript
@@ -43,8 +40,7 @@ Instructor: [Karl Hohn](http://omnikrll.github.io) @omnikrll
 * Functions
 
 ## Week 9
-* JavaScript Objects
-* Build a Simple Game
+* Lab Day
 
 ## Week 10
 * AJAX: Asynchronous Requests
