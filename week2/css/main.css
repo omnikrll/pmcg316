@@ -4,7 +4,8 @@
 
 body {
   background-color: #936E20;
-  font-family: Papyrus, fantasy;
+  font-family: 'Felipa', cursive;
+  font-size: 16px;
   color: black;
 }
 
@@ -62,6 +63,16 @@ nav li:hover .dropdown {
 
 nav li:hover .dropdown li {
   display: block;
+}
+
+nav .hamburger {
+  display: none;
+  width: 64px;
+  height: 64px;
+  margin-left: 32px;
+  position: relative;
+  border: 1px solid black;
+  border-radius: 32px;
 }
 
 .container {
