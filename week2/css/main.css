@@ -144,14 +144,20 @@ aside {
   text-indent: -100%;
   overflow: hidden;
   margin: 0 auto;
+  /* transform: translateX(0); */
+  /* transition-property: transform;
+  transition-duration: 0.2s; */
+}
+
+#logo:hover {
   animation-name: spin;
-  animation-duration: 6s;
-  animation-iteration-count: infinite;
-  animation-direction: alternate;
+  animation-duration: 3s;
+  animation-iteration-count: 2;
+  animation-direction: alternate-reverse;
 }
 
 @keyframes spin {
-  0 {
+  from {
     transform: rotate(0deg) scale(1.0);
   }
 
