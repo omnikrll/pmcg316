@@ -1,0 +1,36 @@
+/* Ketchum */
+@font-face {
+  font-family: 'Ketchum';
+  src: url('fonts/Ketchum/Ketchum.eot');
+  src: url('fonts/Ketchum/Ketchum.eot?#iefix') format('embedded-opentype'),
+       url('fonts/Ketchum/Ketchum.svg#Ketchum') format('svg'),
+       url('fonts/Ketchum/Ketchum.ttf') format('truetype'),
+       url('fonts/Ketchum/Ketchum.woff') format('woff'),
+       url('fonts/Ketchum/Ketchum.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Ketchum';
+  src: url('fonts/Ketchum/Ketchum-Italic.eot');
+  src: url('fonts/Ketchum/Ketchum-Italic.eot?#iefix') format('embedded-opentype'),
+       url('fonts/Ketchum/Ketchum-Italic.svg#Ketchum-Italic') format('svg'),
+       url('fonts/Ketchum/Ketchum-Italic.ttf') format('truetype'),
+       url('fonts/Ketchum/Ketchum-Italic.woff') format('woff'),
+       url('fonts/Ketchum/Ketchum-Italic.woff2') format('woff2');
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Pokemon-Classic';
+  src: url('fonts/Pokemon-Classic/Pokemon-Classic.eot');
+  src: url('fonts/Pokemon-Classic/Pokemon-Classic.eot?#iefix') format('embedded-opentype'),
+       url('fonts/Pokemon-Classic/Pokemon-Classic.svg#Pokemon-Classic') format('svg'),
+       url('fonts/Pokemon-Classic/Pokemon-Classic.ttf') format('truetype'),
+       url('fonts/Pokemon-Classic/Pokemon-Classic.woff') format('woff'),
+       url('fonts/Pokemon-Classic/Pokemon-Classic.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}

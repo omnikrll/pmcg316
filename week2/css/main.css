@@ -4,7 +4,7 @@
 
 body {
   background-color: #936E20;
-  font-family: 'Felipa', cursive;
+  font-family: 'Pokemon-Classic';
   font-size: 16px;
   color: black;
 }
@@ -33,6 +33,15 @@ header a:hover {
   color: white;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Ketchum';
+}
+
 nav ul {
   list-style-type: none;
   text-align: center;
@@ -50,19 +59,32 @@ nav li {
 }
 
 nav li .dropdown {
-  display: none;
-}
-
-nav li:hover .dropdown {
-  display: block;
+  visibility: hidden;
+  opacity: 0;
+  z-index: -1;
   position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
   padding: 0;
   margin: 0;
-  right: 0;
+  transform: translateY(-2em);
+  transition: all 0.3s ease-in-out 0s, visibility 0s linear 0.3s, z-index 0s linear 0.01s;
 }
 
-nav li:hover .dropdown li {
+nav li:focus .dropdown,
+nav li:focus-within .dropdown,
+nav li:hover .dropdown {
+  visibility: visible;
+  opacity: 1;
+  z-index: 1;
+  transform: translateY(0%);
+  transition-delay: 0s, 0s, 0.3s;
+}
+
+nav li .dropdown li {
   display: block;
+  margin: 0;
 }
 
 nav .hamburger {
@@ -122,4 +144,26 @@ aside {
   text-indent: -100%;
   overflow: hidden;
   margin: 0 auto;
+  animation-name: spin;
+  animation-duration: 6s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+@keyframes spin {
+  0 {
+    transform: rotate(0deg) scale(1.0);
+  }
+
+  33% {
+    transform: rotate(180deg) scale(0.3);
+  }
+
+  66% {
+    transform: rotate(320deg) scale(1.25);
+  }
+
+  to {
+    transform: rotate(360deg) scale(1.0);
+  }
 }
