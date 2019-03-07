@@ -21,30 +21,31 @@ Instructor: [Karl Hohn](http://omnikrll.github.io) @omnikrll
 * Intro to Responsive Design
 
 ## Week 5
-* CSS3: Transforms & Animations
-* The CSS Zen Garden
+* Using font-face to set up your own fonts
+* CSS3 Transforms, Transitions & Animations
 
 ## Week 6
-* Lab Day
+* Introduction to jQuery
+* Click Events
+* Plugins
 
 ## Week 7
-* Introduction to JavaScript
-* Frameworks & Libraries
-* jQuery vs. Vanilla JavaScript
-* Understanding Event-Based Scripting
+* Other common JavaScript event types:
+* Scrolling
+* Intervals & Timeouts
 
 ## Week 8
-* Deeper into JavaScript
-* Variable Types
+* Deeper into JavaScript:
 * Loops and Arrays
 * Functions
+* Building an image gallery
 
 ## Week 9
 * Lab Day
 
 ## Week 10
 * AJAX: Asynchronous Requests
-* Forms
+* Putting a contact form on your site
 
 ## Week 11
 * Lab Day: Questions & Answers
